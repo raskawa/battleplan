@@ -1,0 +1,8 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install terraform
+      homebrew_cask: 
+        name: terraform
+        state: present
