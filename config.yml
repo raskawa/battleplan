@@ -5,7 +5,7 @@ sources:
     - name: 'osx'
       repo: 'https://github.com/spencergibb/ansible-osx'
       playbooks:
-         - oh-my-zsh.yml
+         #- oh-my-zsh.yml
          - homebrew.yml
          - cask.yml
          - atom.yml
@@ -18,3 +18,8 @@ sources:
          - sublime3.yml
          - vagrant.yml
          - virtualbox.yml
+    - name: 'myplaybooks'
+      repo: 'https://github.com/justinclayton/my-battleschool'
+      playbooks:
+        - misc-brew.yml
+        - docker.yml
