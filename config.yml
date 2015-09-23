@@ -1,0 +1,20 @@
+---
+sources:
+
+  git:
+    - name: 'osx'
+      repo: 'https://github.com/spencergibb/ansible-osx'
+      playbooks:
+         - oh-my-zsh.yml
+         - homebrew.yml
+         - cask.yml
+         - atom.yml
+         - chrome-stable.yml
+         - dropbox.yml
+         - flux.yml
+         - github.yml
+         - gitx.yml
+         - iterm2.yml
+         - sublime3.yml
+         - vagrant.yml
+         - virtualbox.yml
