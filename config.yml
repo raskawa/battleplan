@@ -22,4 +22,4 @@ sources:
       repo: 'https://github.com/justinclayton/my-battleschool'
       playbooks:
         - misc-brew.yml
-        - docker.yml
+        #- docker.yml

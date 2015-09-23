@@ -8,6 +8,7 @@
         - autojump
         - docker
         - docker-machine
+        - jq
       sudo: false
 
     - name: install terraform
