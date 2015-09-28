@@ -9,6 +9,7 @@
         - docker
         - docker-machine
         - jq
+        - tmux
       sudo: false
 
     - name: install terraform
