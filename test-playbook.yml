@@ -1,0 +1,8 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: print from playbook
+      debug: msg="in test-playbook.yml as user {{ lookup('env','USER') }}"
+
+    - include: test-playbook2.yml
