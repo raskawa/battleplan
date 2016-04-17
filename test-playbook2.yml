@@ -1,3 +1,5 @@
+---
+
   tasks:
     - name: print from playbook
       debug: msg="in test-playbook2.yml as user {{ lookup('env','USER') }}"

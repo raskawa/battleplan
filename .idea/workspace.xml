@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5972939a-4898-4fdb-b6f6-832b122791e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-playbook.yml" afterPath="$PROJECT_DIR$/test-playbook.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-playbook2.yml" afterPath="$PROJECT_DIR$/test-playbook2.yml" />
     </list>
     <ignored path="my-battleschool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-playbook.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test-playbook.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-playbook.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-playbook2.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test-playbook2.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/myplaybook.yml" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/test-playbook2.yml" />
         <option value="$PROJECT_DIR$/test-playbook.yml" />
+        <option value="$PROJECT_DIR$/test-playbook2.yml" />
       </list>
     </option>
   </component>
@@ -257,7 +257,7 @@
       <updated>1460844277570</updated>
       <workItem from="1460844278717" duration="3576000" />
       <workItem from="1460854213970" duration="5098000" />
-      <workItem from="1460925416522" duration="1902000" />
+      <workItem from="1460925416522" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="test playbooks">
       <created>1460931559458</created>
@@ -266,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460931559458</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="localhost">
+      <created>1460931621165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460931621165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10576000" />
+    <option name="totallyTimeSpent" value="10640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="70" width="1400" height="770" extended-state="0" />
@@ -307,7 +314,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test playbooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="test playbooks" />
+    <MESSAGE value="localhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="localhost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -426,18 +434,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
+    <entry file="file://$PROJECT_DIR$/test-playbook.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-playbook.yml">
+    <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
