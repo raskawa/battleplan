@@ -1,3 +1,2 @@
-  tasks:
     - name: print from playbook
       debug: msg="in test-playbook.yml from git 2 as user {{ lookup('env','USER') }}"

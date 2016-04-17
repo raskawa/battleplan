@@ -5,7 +5,7 @@
     - name: print from playbook
       debug: msg="in test-playbook.yml as user {{ lookup('env','USER') }}"
 
-#    - include:
+#    - include: test-playbook2.yml
     - get_url: url=https://raw.githubusercontent.com/raskawa/my-battleschool/master/test-playbook2.yml   dest=~/.my-battleschool/test-playbook2.yml mode=0440
 
     - include: ~/.my-battleschool/test-playbook2.yml
