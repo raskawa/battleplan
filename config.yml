@@ -7,7 +7,7 @@ sources:
 
   url:
 #    - name: playbook.yml
-#      url: https://www.dropbox.com/s/9lza9ovgrv8m3jy/playbook.yml?dl=0
+#      url: https://www.dropbox.com/s/9lza9ovgrv8m3jy/p laybook.yml?dl=0
 
   git:
     - name: 'osx'
@@ -16,7 +16,6 @@ sources:
          - homebrew.yml                 #must come before any use of homebrew module
          - macports.yml                #must come before any use of macports module
          - oh-my-zsh.yml
-         - homebrew.yml
          - cask.yml
          - atom.yml
          - chrome-stable.yml
