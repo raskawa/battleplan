@@ -1,0 +1,124 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: print from playbook
+      debug: msg="in playbooks/playbook.yml as user {{ lookup('env','USER') }}"
+
+    - name: easy install pip
+      easy_install: name=pip
+      sudo: yes
+
+    - name: install apps from pip
+      pip: name={{item}} state=latest
+      sudo: yes
+      with_items:
+          - virtualenv
+          # - cliff
+          - pyyaml
+          - awscli
+
+    - name: install homebrew_taps
+      homebrew_tap: tap={{item}} state=present
+      with_items:
+          - gapple/services
+          # - pivotal/tap
+          - caskroom/cask
+          - homebrew/dupes
+
+
+    - name: install apps from homebrew
+      sudo: false
+      homebrew: name={{item}} state=present update_homebrew=yes
+      with_items:
+          - coreutils
+          - gpg
+          - gzip
+          - wget
+          # - maven
+          # - dos2unix
+          # - tomcat
+          - ctags
+          # - dnsmasq
+          - httpie
+          - mackup
+          - autojump
+          - docker
+          - docker-machine
+          - jq
+          # - node
+          # - rbenv
+          # - ruby
+          # - redis
+          # - mongodb
+          # - rabbitmq
+          # - zookeeper
+          # - cloudfoundry-cli
+          - brew-cask
+          #from paulmillr dotfiles
+          - suspicious-package
+          - quicklook-json
+          - qlmarkdown
+          - qlstephen
+          - qlcolorcode
+          # my others
+          - navicat-premium
+
+# Here is how to install nvm and node in an Ansible task.
+# I tried a bunch of different things, and as usual it's simple, but you have to get it right.
+# The important part is that you have to shell with /bin/bash -c and source nvm.sh
+    - name: Install nvm
+      shell: >
+        curl https://raw.githubusercontent.com/creationix/nvm/v0.7.0/install.sh | sh
+        creates=/home/{{ ansible_user_id }}/.nvm/nvm.sh
+
+    - name: Install node and set version
+      shell: >
+        /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 0.10 && nvm alias default 0.10"
+        creates=/home/{{ ansible_user_id }}/.nvm/alias
+
+
+    # requires node/npm from above
+    - name: install global apps from npm
+      npm: name={{item}} global=yes
+      with_items:
+          - grunt-cli
+
+#    - name: install gvm the Groovy enVironment Manager
+#      mac_pkg: pkg_type=script script_creates=/usr/local/bin/gvm
+#               script_prefix="echo | " script_exe=bash
+#               url=http://get.gvmtool.net
+
+    - name: create homdir symlinks
+      file: src={{item.from}} dest={{item.to}} state=link
+      sudo: no
+      with_items:
+         # ~/Dropbox/ubuntu/* is now deprecated for Mackup and ~/Dropbox/Mackup
+         - from: ~/Dropbox/mac/bin
+           to: ~/bin
+
+    - name: 'myscripts'
+#      copy: src='https://github.com/raskawa/my-battleschool/osx-config.sh' dest='~/.battleschool/osx-config.sh'
+      - script: src='https://github.com/raskawa/my-battleschool/osx-config.sh'
+
+    - name: 'copy config files'
+#      copy: src='https://github.com/raskawa/my-battleschool/.zshrc' dest='~/.zshrc'
+
+# create symlinks
+    - name: create symlinks for sublime / webstorm
+      file: src="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" dest=~/bin/subl state=link
+
+      #
+#    - name: Install z.sh
+#      get_url: url=https://raw.githubusercontent.com/rupa/z/master/z.sh dest=/usr/local/share/zsh/ mode=0755
+#
+#    - name: Install z.sh
+#      get_url: url=https://raw.githubusercontent.com/rupa/z/master/z.1 dest=/usr/local/share/man/man1/
+
+
+#    - name: install gems
+#      gem: name={{item}} state=latest
+#      with_items:
+#          - brewbygems
+#          - bundler
+#          - compass
