@@ -1,5 +1,5 @@
 ---
-- hosts: workstation
+- hosts: localhost
 
   tasks:
     - name: print from playbook
