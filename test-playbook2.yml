@@ -1,2 +1,2 @@
     - name: print from playbook
-      debug: msg="in test-playbook2.yml from git 4 as user {{ lookup('env','USER') }}"
+      debug: msg="in test-playbook2.yml from git 5 as user {{ lookup('env','USER') }}"

@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/test-playbook.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding>
                 <marker date="1460936088000" expanded="true" signature="177:339" placeholder="..." />
               </folding>
@@ -277,7 +277,7 @@
       <updated>1460844277570</updated>
       <workItem from="1460844278717" duration="3576000" />
       <workItem from="1460854213970" duration="5098000" />
-      <workItem from="1460925416522" duration="5687000" />
+      <workItem from="1460925416522" duration="6117000" />
     </task>
     <task id="LOCAL-00001" summary="test playbooks">
       <created>1460931559458</created>
@@ -349,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460936112608</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="localhost">
+      <created>1460936185511</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1460936185511</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14361000" />
+    <option name="totallyTimeSpent" value="14791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="70" width="1400" height="770" extended-state="0" />
@@ -560,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/test-playbook.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
             <marker date="1460936088000" expanded="true" signature="177:339" placeholder="..." />
           </folding>
