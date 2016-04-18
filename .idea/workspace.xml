@@ -4,7 +4,6 @@
     <list default="true" id="5972939a-4898-4fdb-b6f6-832b122791e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-playbook.yml" afterPath="$PROJECT_DIR$/test-playbook.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-playbook2.yml" afterPath="$PROJECT_DIR$/test-playbook2.yml" />
     </list>
     <ignored path="my-battleschool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,9 +38,9 @@
         <entry file="file://$PROJECT_DIR$/test-playbook.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="129" selection-start-line="8" selection-start-column="129" selection-end-line="8" selection-end-column="129" />
+              <caret line="8" column="132" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
               <folding>
-                <marker date="1460938046000" expanded="true" signature="177:321" placeholder="..." />
+                <marker date="1460938139000" expanded="true" signature="177:323" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -51,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -123,8 +122,8 @@
         <option value="$PROJECT_DIR$/workstation.yml" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$USER_HOME$/.my-battleschool/test-playbook2.yml" />
-        <option value="$PROJECT_DIR$/test-playbook.yml" />
         <option value="$PROJECT_DIR$/test-playbook2.yml" />
+        <option value="$PROJECT_DIR$/test-playbook.yml" />
       </list>
     </option>
   </component>
@@ -278,7 +277,7 @@
       <updated>1460844277570</updated>
       <workItem from="1460844278717" duration="3576000" />
       <workItem from="1460854213970" duration="5098000" />
-      <workItem from="1460925416522" duration="7234000" />
+      <workItem from="1460925416522" duration="7332000" />
     </task>
     <task id="LOCAL-00001" summary="test playbooks">
       <created>1460931559458</created>
@@ -371,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460937910675</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;localhost">
+      <created>1460938070630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460938070630</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15908000" />
+    <option name="totallyTimeSpent" value="16006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="70" width="1400" height="770" extended-state="0" />
@@ -431,7 +437,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test playbooks" />
     <MESSAGE value="localhost" />
-    <option name="LAST_COMMIT_MESSAGE" value="localhost" />
+    <MESSAGE value="&#10;localhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;localhost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,9 +589,9 @@
     <entry file="file://$PROJECT_DIR$/test-playbook.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="129" selection-start-line="8" selection-start-column="129" selection-end-line="8" selection-end-column="129" />
+          <caret line="8" column="132" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
           <folding>
-            <marker date="1460938046000" expanded="true" signature="177:321" placeholder="..." />
+            <marker date="1460938139000" expanded="true" signature="177:323" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -592,7 +599,7 @@
     <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
           <folding />
         </state>
       </provider>
