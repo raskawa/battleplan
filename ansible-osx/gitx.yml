@@ -1,0 +1,6 @@
+    - name: install gitx
+      mac_pkg: pkg_type=app
+               url=http://builds.phere.net/GitX/development/GitX-dev.dmg
+               archive_type=dmg archive_path=GitX.app
+      sudo: yes
+

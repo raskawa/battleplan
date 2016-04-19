@@ -2,8 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5972939a-4898-4fdb-b6f6-832b122791e6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/adium.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/alfred.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/android-studio.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/apps/test2.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/atom.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/better-touch-tool.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/cask.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/charles.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/cheatsheet.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/chrome-beta.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/chrome-canary.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/chrome-stable.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/dropbox.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/evernote.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/fantastical.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/firefox.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/flux.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/fuseforosx.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/github.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/gitx.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/gvm.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/handbrake.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/homebrew.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/intellij-idea-ultimate12.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/intellij-idea-ultimate13.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/intellij-idea-ultimate15.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/istat-menus.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/iterm2.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/java6.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/java7.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/java8.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/kaleidoscope.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/karabiner.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/keepassx.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/libreoffice.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/local.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/macfusion.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/macports.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/macvim.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/mou.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/notational-velocity.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/oh-my-zsh.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/phpstorm10.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/quicksilver.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/seil.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/sequel-pro.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/skype.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/spectacle.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/sshfs.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/sublime2.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/sublime3.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/total-terminal.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/tower.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/transmit.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/truecrypt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/usb-overdrive.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/vagrant.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/virtualbox.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/vlc.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/webstorm.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible-osx/xtra-finder.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/mac_pkg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/time" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/workstation.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/old/config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker.yml" afterPath="$PROJECT_DIR$/old/docker.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test-playbook.yml" afterPath="$PROJECT_DIR$/old/test-playbook.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test-playbook2.yml" afterPath="$PROJECT_DIR$/old/test-playbook2.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitconfig" afterPath="$PROJECT_DIR$/.gitconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-playbook2.yml" afterPath="$PROJECT_DIR$/test-playbook2.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.zshrc" afterPath="$PROJECT_DIR$/.zshrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myplaybook.yml" afterPath="$PROJECT_DIR$/myplaybook.yml" />
     </list>
     <ignored path="my-battleschool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,90 +96,7 @@
     <favorites_list name="my-battleschool" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-playbook.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-playbook.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="132" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
-              <folding>
-                <marker date="1460938139000" expanded="true" signature="177:323" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-playbook2.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="osx-config.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/osx-config.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".zshrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.zshrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myplaybook.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myplaybook.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,7 +106,6 @@
       <list>
         <option value="$PROJECT_DIR$/misc-brew.yml" />
         <option value="$PROJECT_DIR$/osx-config.sh" />
-        <option value="$PROJECT_DIR$/myplaybook.yml" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/workstation.yml" />
@@ -124,6 +113,12 @@
         <option value="$USER_HOME$/.my-battleschool/test-playbook2.yml" />
         <option value="$PROJECT_DIR$/test-playbook.yml" />
         <option value="$PROJECT_DIR$/test-playbook2.yml" />
+        <option value="$PROJECT_DIR$/ansible-osx/homebrew.yml" />
+        <option value="$PROJECT_DIR$/ansible-osx/macports.yml" />
+        <option value="$PROJECT_DIR$/newgitconfig" />
+        <option value="$PROJECT_DIR$/newzshrc" />
+        <option value="$PROJECT_DIR$/myplaybook.yml" />
+        <option value="$PROJECT_DIR$/.zshrc" />
       </list>
     </option>
   </component>
@@ -163,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,18 +176,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-battleschool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-battleschool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/.my-battleschool/test-playbook2.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node-express-template" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
       <recent name="https://raw.githubusercontent.com/raskawa/my-battleschool/master/test-playbook2.yml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/old" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible-osx" />
     </key>
   </component>
   <component name="RunManager">
@@ -277,7 +294,9 @@
       <updated>1460844277570</updated>
       <workItem from="1460844278717" duration="3576000" />
       <workItem from="1460854213970" duration="5098000" />
-      <workItem from="1460925416522" duration="7359000" />
+      <workItem from="1460925416522" duration="15075000" />
+      <workItem from="1460950140144" duration="178000" />
+      <workItem from="1460950324295" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="test playbooks">
       <created>1460931559458</created>
@@ -384,17 +403,24 @@
       <option name="project" value="LOCAL" />
       <updated>1460938164357</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&#10;localhost">
+      <created>1460938191421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1460938191421</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16033000" />
+    <option name="totallyTimeSpent" value="24195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="70" width="1400" height="770" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,11 +478,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.yml">
+    <entry file="file://$PROJECT_DIR$/old/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="105" column="90" selection-start-line="105" selection-start-column="90" selection-end-line="105" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,15 +510,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
+    <entry file="file://$PROJECT_DIR$/old/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="78" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,31 +531,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/misc-brew.yml" />
-    <entry file="file://$PROJECT_DIR$/.gitconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.zshrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/osx-config.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,31 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myplaybook.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workstation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,25 +565,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-playbook.yml">
+    <entry file="file://$PROJECT_DIR$/ansible-osx/adium.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="50" column="26" selection-start-line="15" selection-start-column="1" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workstation.yml" />
+    <entry file="file://$PROJECT_DIR$/old/docker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/test-playbook.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="132" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
-          <folding>
-            <marker date="1460938139000" expanded="true" signature="177:323" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-playbook2.yml">
+    <entry file="file://$PROJECT_DIR$/old/test-playbook2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible-osx/macports.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible-osx/atom.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/mac_pkg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="97" column="15" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.zshrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="81" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.zshrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myplaybook.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="153" column="89" selection-start-line="153" selection-start-column="89" selection-end-line="153" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible-osx/macvim.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible-osx/homebrew.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>

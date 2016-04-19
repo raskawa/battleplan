@@ -1,9 +1,46 @@
 ---
-- hosts: workstation
+- hosts: localhost
 
   tasks:
     - name: print from playbook
       debug: msg="in playbooks/playbook.yml as user {{ lookup('env','USER') }}"
+
+    - include: ansible-osx/homebrew.yml                 #must come before any use of homebrew module
+#    - include: ansible-osx/macports.yml #issue: not right osx version        #must come before any use of macports module
+    - include: ansible-osx/oh-my-zsh.yml
+    - include: ansible-osx/cask.yml
+#    - include: ansible-osx/atom.yml # issue: zip/file download issue
+    - include: ansible-osx/chrome-stable.yml
+    - include: ansible-osx/dropbox.yml
+    - include: ansible-osx/evernote.yml
+    - include: ansible-osx/kaleidoscope.yml
+    - include: ansible-osx/skype.yml
+    - include: ansible-osx/webstorm.yml
+#       - include: ansible-osx/sshfs.yml
+#       - include: ansible-osx/flux.yml
+#    - include: ansible-osx/github.yml #issue
+    - include: ansible-osx/gitx.yml
+    - include: ansible-osx/iterm2.yml
+    - include: ansible-osx/sublime3.yml
+    - include: ansible-osx/vagrant.yml
+    - include: ansible-osx/virtualbox.yml
+#    - include: ansible-osx/alfred.yml # issue
+#       - include: ansible-osx/chrome-beta.yml
+#       - include: ansible-osx/chrome-canary.yml
+#    - include: ansible-osx/karabiner.yml #issue: package not valid
+#       - include: ansible-osx/intellij-idea-ultimate15.yml
+#       - include: ansible-osx/java7.yml
+#       - include: ansible-osx/java6.yml
+    - include: ansible-osx/better-touch-tool.yml
+#       - include: ansible-osx/adium.yml
+#       - include: ansible-osx/libreoffice.yml
+#       - include: ansible-osx/seil.yml
+#       - include: ansible-osx/spectacle.yml
+#       - include: ansible-osx/sequel-pro.yml
+    - include: ansible-osx/skype.yml
+#       - include: ansible-osx/truecrypt.yml
+#       - include: ansible-osx/usb-overdrive.yml
+    - include: ansible-osx/xtra-finder.yml
 
     - name: easy install pip
       easy_install: name=pip
@@ -15,8 +52,8 @@
       with_items:
           - virtualenv
           # - cliff
-          - pyyaml
-          - awscli
+#          - pyyaml
+#          - awscli
 
     - name: install homebrew_taps
       homebrew_tap: tap={{item}} state=present
@@ -56,13 +93,18 @@
           # - cloudfoundry-cli
           - brew-cask
           #from paulmillr dotfiles
-          - suspicious-package
+#          - suspicious-package
+
+    - name: install apps from homebrew cask
+      sudo: false
+      homebrew_cask: name={{item}} state=present # update_homebrew=yes
+      with_items:
           - quicklook-json
           - qlmarkdown
           - qlstephen
           - qlcolorcode
           # my others
-          - navicat-premium
+#          - navicat-premium #issue - 2.9 sha did not match..
 
 # Here is how to install nvm and node in an Ansible task.
 # I tried a bunch of different things, and as usual it's simple, but you have to get it right.
@@ -74,8 +116,8 @@
 
     - name: Install node and set version
       shell: >
-        /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 0.10 && nvm alias default 0.10"
-        creates=/home/{{ ansible_user_id }}/.nvm/alias
+        source ~/.nvm/nvm.sh && nvm install 5.0.0 && nvm alias default 5.0.0
+#        creates=/home/{{ ansible_user_id }}/.nvm/alias
 
 
     # requires node/npm from above
@@ -89,25 +131,32 @@
 #               script_prefix="echo | " script_exe=bash
 #               url=http://get.gvmtool.net
 
-    - name: create homdir symlinks
-      file: src={{item.from}} dest={{item.to}} state=link
-      sudo: no
-      with_items:
-         # ~/Dropbox/ubuntu/* is now deprecated for Mackup and ~/Dropbox/Mackup
-         - from: ~/Dropbox/mac/bin
-           to: ~/bin
+#    - name: create homdir symlinks
+#      file: src={{item.from}} dest={{item.to}} state=link
+#      sudo: no
+#      with_items:
+#         # ~/Dropbox/ubuntu/* is now deprecated for Mackup and ~/Dropbox/Mackup
+#         - from: ~/Dropbox/mac/bin
+#           to: ~/bin
 
-    - name: 'myscripts'
-#      copy: src='https://github.com/raskawa/my-battleschool/osx-config.sh' dest='~/.battleschool/osx-config.sh'
-      - script: src='https://github.com/raskawa/my-battleschool/osx-config.sh'
+    - name: 'execute mac settings script'
+      script: ./osx-config.sh
 
     - name: 'copy config files'
-      copy: src='https://github.com/raskawa/my-battleschool/.zshrc' dest='~/.zshrc'
-      copy: src='https://github.com/raskawa/my-battleschool/.gitconfig' dest='~/.gitconfig'
+      shell: >
+        cp .zshrc ~
+      shell: >
+        cp .gitconfig ~
 
-# create symlinks
+#      copy: src='./.zshrc' dest='~/.zshrc'
+#      copy: src='./.gitconfig' dest='~/.gitconfig'
+
+# create symlinks - broken, figure out how to create this directory before next command...
+#    - name: create local /bin
+#      directory: "~/bin"
+
     - name: create symlinks for sublime / webstorm
-      file: src="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" dest=~/bin/subl state=link
+      file: src="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" dest="~/bin/subl" state=link
 
       #
 #    - name: Install z.sh

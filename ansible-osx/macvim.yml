@@ -1,0 +1,19 @@
+
+
+  vars:
+    macvim_url: https://github.com/macvim-dev/macvim/releases/download/snapshot-80/MacVim-7.4.dmg
+    lion_url: https://github.com/eee19/macvim/releases/download/snapshot-73/MacVim-snapshot-73-Lion.tbz
+    creates: MacVim.app
+
+
+    - name: install macvim 10.8(Mountain Lion), 10.9(Mavericks), 10.10(Yosemite), and 10.11(El Capitan)
+      mac_pkg: pkg_type=app archive_type=dmg url={{macvim_url}}
+               archive_path={{creates}} creates={{creates}}
+      sudo: yes
+      when: mac_major_minor_version == "10.11" or mac_major_minor_version == "10.10" or mac_major_minor_version == "10.9" or mac_major_minor_version == "10.8"
+
+    - name: install macvim Lion
+      mac_pkg: pkg_type=app archive_type=tar url={{lion_url}}
+               archive_path=MacVim-snapshot-73/MacVim.app creates={{creates}}
+      sudo: yes
+      when: mac_major_minor_version == "10.7"

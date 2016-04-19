@@ -1,0 +1,3 @@
+    - name: print from playbook
+      debug: msg="in spencer-gibb/ansible-osx/apps/test2.yml"
+
