@@ -86,3 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -s "/Users/dgodwin/.nvm/nvm.sh" ] && . "/Users/dgodwin/.nvm/nvm.sh" # This loads nvm
+
+# Iterm2 additions
+source ~/.iterm2_shell_integration.`basename $SHELL`
+

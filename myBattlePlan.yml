@@ -5,6 +5,7 @@
     - name: print from playbook
       debug: msg="in playbooks/playbook.yml as user {{ lookup('env','USER') }}"
 
+# ANSIBLE INSTALL SUB-PLAYBOOKS BELOW
     - include: ansible-osx/homebrew.yml                 #must come before any use of homebrew module
 #    - include: ansible-osx/macports.yml #issue: not right osx version        #must come before any use of macports module
     - include: ansible-osx/oh-my-zsh.yml
@@ -46,6 +47,7 @@
       easy_install: name=pip
       sudo: yes
 
+# PIP INSTALLS BELOW
     - name: install apps from pip
       pip: name={{item}} state=latest
       sudo: yes
@@ -55,6 +57,7 @@
 #          - pyyaml
 #          - awscli
 
+# HOMEBREW TAPS BELOW
     - name: install homebrew_taps
       homebrew_tap: tap={{item}} state=present
       with_items:
@@ -63,7 +66,7 @@
           - caskroom/cask
           - homebrew/dupes
 
-
+# HOMEBREW INSTALLS BELOW
     - name: install apps from homebrew
       sudo: false
       homebrew: name={{item}} state=present update_homebrew=yes
@@ -95,6 +98,7 @@
           #from paulmillr dotfiles
 #          - suspicious-package
 
+# HOMEBREW CASK INSTALLS BELOW
     - name: install apps from homebrew cask
       sudo: false
       homebrew_cask: name={{item}} state=present # update_homebrew=yes
@@ -119,14 +123,34 @@
         source ~/.nvm/nvm.sh && nvm install 5.0.0 && nvm alias default 5.0.0
 #        creates=/home/{{ ansible_user_id }}/.nvm/alias
 
-
+# NPM GLOBAL INSTALLS BELOW
     # requires node/npm from above
     - name: install global apps from npm
       npm: name={{item}} global=yes
       with_items:
           - grunt-cli
 
-#    - name: install gvm the Groovy enVironment Manager
+# BELOW IS OTHER BATTLEPLAN FINAL ACTIONS
+
+# Executes the mac preferences/settings file.
+    - name: 'execute mac settings script'
+      script: ./osx-config-BattlePlan.sh
+
+# Add any additional files in the toCopy directory here.
+    - name: 'copy .zchrc'
+      shell: >
+        cp toCopy/.zshrc ~
+
+    - name: 'copy gitconfig'
+      shell: >
+        cp toCopy/.gitconfig ~
+
+
+
+
+
+# OLD FROM BATTLEPLANS ORIGINAL FILE
+#   - name: install gvm the Groovy enVironment Manager
 #      mac_pkg: pkg_type=script script_creates=/usr/local/bin/gvm
 #               script_prefix="echo | " script_exe=bash
 #               url=http://get.gvmtool.net
@@ -139,15 +163,6 @@
 #         - from: ~/Dropbox/mac/bin
 #           to: ~/bin
 
-    - name: 'execute mac settings script'
-      script: ./osx-config.sh
-
-    - name: 'copy config files'
-      shell: >
-        cp .zshrc ~
-      shell: >
-        cp .gitconfig ~
-
 #      copy: src='./.zshrc' dest='~/.zshrc'
 #      copy: src='./.gitconfig' dest='~/.gitconfig'
 
@@ -155,8 +170,8 @@
 #    - name: create local /bin
 #      directory: "~/bin"
 
-    - name: create symlinks for sublime / webstorm
-      file: src="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" dest="~/bin/subl" state=link
+#    - name: create symlinks for sublime / webstorm
+#      file: src="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" dest="~/bin/subl" state=link
 
       #
 #    - name: Install z.sh
