@@ -83,7 +83,10 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias docker-cli='bash -c "clear && DOCKER_HOST=tcp://192.168.99.100:2376 DOCKER_CERT_PATH=/Users/DGodwin/.docker/machine/machines/default DOCKER_TLS_VERIFY=1 /bin/zsh"'
+echo 'To create a command line launcher for WebStorm, launch webstorm and run "Tools" > "Create Command Line Launcher" then you can "wstorm <folder/file name>" to launch webstorm'
+
 
 [ -s "/Users/dgodwin/.nvm/nvm.sh" ] && . "/Users/dgodwin/.nvm/nvm.sh" # This loads nvm
 
